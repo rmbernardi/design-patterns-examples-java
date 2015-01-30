@@ -19,7 +19,7 @@ public class Driver
 		Monster bowser = characterManager.createMonster();
 		bowser.setName("Bowser");
 		
-		System.out.println("Creating Bowser by cloning the prototype Friend. This is fast.");		
+		System.out.println("Creating Zelda by cloning the prototype Friend. This is fast.");		
 		Friend zelda = characterManager.createFriend();
 		zelda.setName("Zelda");
 	}
