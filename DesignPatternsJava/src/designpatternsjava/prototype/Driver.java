@@ -4,10 +4,10 @@ package designpatternsjava.prototype;
  * Example context:
  * 
  * In this example, characters for a role-playing game
- * are created.  The characters are classified as Heros,
+ * are created.  The characters are classified as Heroes,
  * Friends, and Monsters.
  * 
- * If instantiation and initialization of characters
+ * Instantiation and initialization of characters
  * can take a long time.
  * 
  * Only during the initialization phase of the program
@@ -16,8 +16,6 @@ package designpatternsjava.prototype;
  * 
  * This way, creation of new characters on-the-fly is 
  * much quicker.
- * 
- * @author Bob
  *
  */
 public class Driver 
