@@ -4,11 +4,11 @@ package designpatternsjava.creational.singleton;
  * Example context:
  * 
  * In this example, only a single instance of an
- * object is created.
+ * class is created.
  * 
  * The constructor of the Singleton cannot be directly
  * called.  The instance of the Singleton must be 
- * obtained through the getInstance method.
+ * obtained through the getInstance() method.
  * 
  * The example shows that all calls to the getInstance()
  * method result in a reference to the original Singleton

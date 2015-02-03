@@ -3,11 +3,16 @@ package designpatternsjava.creational.prototype;
 /**
  * Example context:
  * 
+<<<<<<< HEAD:DesignPatternsJava/src/designpatternsjava/creational/prototype/Driver.java
  * In this example, characters for a fantasy role-playing game
  * are created.  The characters are classified as Heros,
+=======
+ * In this example, characters for a role-playing game
+ * are created.  The characters are classified as Heroes,
+>>>>>>> origin/master:DesignPatternsJava/src/designpatternsjava/prototype/Driver.java
  * Friends, and Monsters.
  * 
- * If instantiation and initialization of characters
+ * Instantiation and initialization of characters
  * can take a long time.
  * 
  * Only during the initialization phase of the program
@@ -16,7 +21,10 @@ package designpatternsjava.creational.prototype;
  * 
  * This way, creation of new characters on-the-fly is 
  * much quicker.
+<<<<<<< HEAD:DesignPatternsJava/src/designpatternsjava/creational/prototype/Driver.java
  * 
+=======
+>>>>>>> origin/master:DesignPatternsJava/src/designpatternsjava/prototype/Driver.java
  *
  */
 public class Driver 
