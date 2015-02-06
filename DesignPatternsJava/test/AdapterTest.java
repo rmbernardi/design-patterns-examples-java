@@ -60,6 +60,7 @@ public class AdapterTest
 		for (ICharacter character : characters)
 		{
 			System.out.println(character.toString());
+			character.draw();
 		}
 	}
 }
