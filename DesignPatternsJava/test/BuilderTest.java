@@ -1,4 +1,7 @@
-package designpatternsjava.creational.builder;
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
 
 /**
  * Example context:
@@ -48,7 +51,7 @@ package designpatternsjava.creational.builder;
  *  In the UnderWorld, spaces can be occupied by doors,
  *  obstacles, collectables, and other sprites.
  */
-public class Driver 
+public class BuilderTest 
 {
 	// The contents of the file should be inside of 
 	//	a separate file.  For the sake of simplicity,
@@ -56,4 +59,8 @@ public class Driver
 	//
 	// In a real example, the contents of the file
 	//	should be contained inside of a separate file. 
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
 }

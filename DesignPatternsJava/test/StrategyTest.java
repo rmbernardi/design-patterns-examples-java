@@ -1,4 +1,7 @@
-package designpatternsjava.behavioral.strategy;
+import org.junit.Test;
+
+import designpatternsjava.behavioral.strategy.FuzzyControlStrategy;
+import designpatternsjava.behavioral.strategy.INegativeFeedbackControlStrategy;
 
 /**
  * Example Context:
@@ -24,15 +27,11 @@ package designpatternsjava.behavioral.strategy;
  * Note: Details about Fuzzy Control and PID Control
  * 	are beyond the scope of this example.
  */
-public class Driver 
+public class StrategyTest 
 {
-	public static void main(String args[])
-	{
-		Driver driver = new Driver();
-		driver.doMainLoop();
-	}
-	
-	public void doMainLoop()
+
+	@Test
+	public void test() 
 	{
 		// For this example, Fuzzy Control has been selected.
 		//	However, any of the other strategies can be used.
@@ -59,4 +58,5 @@ public class Driver
 	{
 		return 10.0f; // Sample value.
 	}
+
 }

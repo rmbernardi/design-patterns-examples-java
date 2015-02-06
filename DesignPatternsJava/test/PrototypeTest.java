@@ -1,15 +1,17 @@
-package designpatternsjava.creational.prototype;
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+import designpatternsjava.creational.prototype.CharacterManager;
+import designpatternsjava.creational.prototype.Friend;
+import designpatternsjava.creational.prototype.Hero;
+import designpatternsjava.creational.prototype.Monster;
 
 /**
  * Example context:
  * 
-<<<<<<< HEAD:DesignPatternsJava/src/designpatternsjava/creational/prototype/Driver.java
  * In this example, characters for a fantasy role-playing game
  * are created.  The characters are classified as Heros,
-=======
- * In this example, characters for a role-playing game
- * are created.  The characters are classified as Heroes,
->>>>>>> origin/master:DesignPatternsJava/src/designpatternsjava/prototype/Driver.java
  * Friends, and Monsters.
  * 
  * Instantiation and initialization of characters
@@ -21,15 +23,11 @@ package designpatternsjava.creational.prototype;
  * 
  * This way, creation of new characters on-the-fly is 
  * much quicker.
-<<<<<<< HEAD:DesignPatternsJava/src/designpatternsjava/creational/prototype/Driver.java
- * 
-=======
->>>>>>> origin/master:DesignPatternsJava/src/designpatternsjava/prototype/Driver.java
- *
  */
-public class Driver 
+public class PrototypeTest 
 {
-	public static void main(String args[])
+	@Test
+	public void test() 
 	{
 		System.out.println("Creating the CharacterManager. This takes a long time.");
 		CharacterManager characterManager = new CharacterManager();
@@ -50,4 +48,5 @@ public class Driver
 		Friend zelda = characterManager.createFriend();
 		zelda.setName("Zelda");
 	}
+
 }

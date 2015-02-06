@@ -1,4 +1,13 @@
-package designpatternsjava.structural.flyweight;
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+import designpatternsjava.structural.flyweight.Bush;
+import designpatternsjava.structural.flyweight.Door;
+import designpatternsjava.structural.flyweight.FlowerPatch;
+import designpatternsjava.structural.flyweight.GridItemFactory;
+import designpatternsjava.structural.flyweight.Rock;
+import designpatternsjava.structural.flyweight.Tree;
 
 /**
  * Example context:
@@ -15,13 +24,14 @@ package designpatternsjava.structural.flyweight;
  * memory for each instance of each grid item type,
  * return a reference to a single object instance.c de 
  */
-public class Driver 
+public class FlyweightTest
 {
-	public static void main(String args[])
+	@Test
+	public void test() 
 	{
 		// Creating the gridItemFactory could take
 		//	a long time.
-		System.out.println("Creating the GridItemFactory");
+		System.out.println("Creating the GridItemFactory.  This takes a long time...");
 		GridItemFactory gridItemFactory = new GridItemFactory();
 		System.out.println("GridItemFactory created");
 		

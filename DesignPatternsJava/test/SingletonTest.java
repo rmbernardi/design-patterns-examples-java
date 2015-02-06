@@ -1,8 +1,15 @@
-package designpatternsjava.creational.singleton;
+import static org.junit.Assert.*;
 
-public class Driver 
+import org.junit.Test;
+
+import designpatternsjava.creational.singleton.Singleton;
+
+
+public class SingletonTest 
 {
-	public static void main(String args[])
+
+	@Test
+	public void test() 
 	{
 		Singleton singleton = Singleton.getInstance();
 		System.out.println(singleton.counter);
@@ -12,4 +19,5 @@ public class Driver
 		
 		// Note that the second println produces the result 1;
 	}
+
 }
