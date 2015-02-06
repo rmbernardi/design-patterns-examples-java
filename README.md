@@ -1,4 +1,4 @@
-# design-patterns-examples-java
+# Design Patterns Examples, In Java
 Case studies of each of each of the 23 Gang-of-Four design patterns implemented in Java.
 
 Each case study is a condensed example of how to use each design pattern and is not meant to be a full implementation of the context of each of the case studies.  
