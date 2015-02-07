@@ -1,7 +1,7 @@
 # Design Patterns Examples For Gamers, In Java
 This repository contains case studies of each of the twenty-three Gang-of-Four (GoF) design patterns, implemented in Java.  The contexts of the case studies were created from typical scenarios of that can be encountered in fantasy, role-playing games.  
 
-The examples are intended to be a tutorial for software developers that would like to become more familiar with design patterns.  The the examples here are presented in Java, the concepts are language-independent and can be implemented in other object-oriented languages such as C# or C++.
+The examples are intended to be a tutorial for software developers that would like to become more familiar with design patterns.  Though the examples here are presented in Java, the concepts are language-independent and can be implemented in other object-oriented languages such as C# or C++.
 
 Each case study is a condensed example of how to use each design pattern and is not meant to be a full implementation of the context of each of the case studies.  
 
