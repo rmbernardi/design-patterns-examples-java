@@ -2,8 +2,6 @@ package designpatternsjava.structural.decorator;
 
 public abstract class AbstractCharacter implements ICharacter 
 {
-//	private ICharacter character;
-	
 	private int health = 0;
 	private int strength = 0;
 	private int magic = 0;

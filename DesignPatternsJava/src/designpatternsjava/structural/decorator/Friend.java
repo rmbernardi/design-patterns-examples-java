@@ -2,9 +2,8 @@ package designpatternsjava.structural.decorator;
 
 public class Friend extends AbstractFriend
 {
-	public Friend(/* ICharacter character */)
+	public Friend()
 	{
-//		super(character);
 	}
 	
 	@Override

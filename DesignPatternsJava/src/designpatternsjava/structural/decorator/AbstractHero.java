@@ -2,8 +2,7 @@ package designpatternsjava.structural.decorator;
 
 public abstract class AbstractHero extends AbstractCharacter 
 {
-	public AbstractHero(/* ICharacter character */)
+	public AbstractHero()
 	{
-//		super(character);
 	}
 }

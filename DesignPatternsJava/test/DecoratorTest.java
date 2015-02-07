@@ -8,9 +8,13 @@ import designpatternsjava.structural.decorator.MagicPowersCharacter;
 
 /**
  * In a fantasy role-playing game,
- * the hero can have earn various types of
+ * the main character can have earn various types of
  * qualities during the game.
- *
+ * 
+ * Using the Decorator pattern, new qualities can
+ * be added to the main character on-the-fly without
+ * touching the ICharacter interface or AbstractCharacter
+ * base class.
  */
 public class DecoratorTest 
 {
@@ -32,7 +36,8 @@ public class DecoratorTest
 		
 		// Give magical powers to the character...
 		// Note: The code in this example does not support
-		//	give an invisibility cloak AND magical powers.
+		//	give an invisibility cloak AND magical powers AND 
+		//	increased strength.
 		mainCharacter = new MagicPowersCharacter(mainCharacter);		
 		System.out.println(mainCharacter);		
 	}

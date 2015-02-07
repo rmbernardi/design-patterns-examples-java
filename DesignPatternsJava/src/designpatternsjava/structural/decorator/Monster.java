@@ -2,9 +2,8 @@ package designpatternsjava.structural.decorator;
 
 public class Monster extends AbstractMonster
 {
-	public Monster(/* ICharacter character */)
+	public Monster()
 	{
-//		super(character);
 	}
 	
 	@Override

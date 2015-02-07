@@ -6,7 +6,6 @@ public abstract class AbstractCharacterQuality extends AbstractCharacter
 	
 	public AbstractCharacterQuality(ICharacter character)
 	{
-//		super(character);
 		decoratedCharacter = character;
 	}
 }
