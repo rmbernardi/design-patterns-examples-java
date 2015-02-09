@@ -24,7 +24,6 @@ public class VisitorTest
 	@Test
 	public void test() 
 	{
-		// Create an engine...
 		ICharacter Yelda = new Hero();
 		
 		System.out.println("Checking the levels of Yelda's arsenal...");
