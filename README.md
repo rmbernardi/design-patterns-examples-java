@@ -5,8 +5,8 @@ The examples are intended to be a tutorial for software developers that would li
 
 Each case study is a condensed example of how to use each design pattern and is not meant to be a full implementation of the context of each of the case studies.  
 
-The focus here is not to show the reader how to implement the context of each case study.  Rather, the focus is on how one could design specific features within the context using design patterns.
+The intention here is not to show the reader how to implement the full story behind the context of each case study.  Rather, the focus is on how one could design very specific features using design patterns to make code that is adaptable to change.
 
-Design patterns facilitate discussion about software design since they boil down many commonly encountered situations that software developers run into into a set of 23 common scenarios.
+Design patterns facilitate discussion about software design since they boil down many commonly encountered situations that software developers run into into a set of 23 common scenarios.  Additionally, following the GoF guidelines can help to create code that is more adaptable to change.
 
 Please view the JUnit test cases in the "test" directory for an explanation of the context of each example.
