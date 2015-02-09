@@ -1,47 +1,49 @@
 package designpatternsjava.behavioral.visitor;
 
+/**
+ * These methods access variable internal to Characters.
+ * Using the Visitor pattern, changes will be localized to this class
+ * and no changes will be needed inside of the Character hierarchy.
+ */
 public class CharacterAudit implements ICharacterVisitor 
 {
-	private int armorLevel;
-	private int footwareLevel;
-	private int shieldLevel;
-	private int swordLevel;
-	
 	public CharacterAudit()
-	{
-		armorLevel = 0;
-		footwareLevel = 0;
-		shieldLevel = 0;
-		swordLevel = 0;
+	{	
 	}
 	
 	public void visit(Armor armor)
 	{
-		armorLevel++;
+		Integer armorLevel = armor.getLevel();
+		
+		armorLevel++;		
+		armor.setLevel(armorLevel);
+		System.out.println("Armor level = " + armor.getLevel());
 	}
 	
 	public void visit(Footware footware)
 	{
+		Integer footwareLevel = footware.getLevel();
+		
 		footwareLevel++;
+		footware.setLevel(footwareLevel);
+		System.out.println("Footware level = " + footware.getLevel());
 	}
 	
 	public void visit(Shield shield)
 	{
+		Integer shieldLevel = shield.getLevel();
+		
 		shieldLevel++;
+		shield.setLevel(shieldLevel);
+		System.out.println("Shield level = " + shield.getLevel());
 	}
 	
 	public void visit(Sword sword)
 	{
+		Integer swordLevel = sword.getLevel();
+		
 		swordLevel++;
-	}
-	
-	public void visit(ICharacter character)
-	{
-		System.out.println(
-			"The character has: " +
-				"armor level " + armorLevel + ", " +
-				"footware level " + footwareLevel + ", " +
-				"shield level " + shieldLevel + ", " +
-				"sword level " + swordLevel);
+		sword.setLevel(swordLevel);
+		System.out.println("Sword level = " + sword.getLevel());
 	}
 }

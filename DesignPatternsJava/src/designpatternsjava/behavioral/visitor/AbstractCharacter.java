@@ -1,6 +1,9 @@
 package designpatternsjava.behavioral.visitor;
 
 // See the adapter example.
+// Though this file has no abstract methods, it must still
+//	be abstract since the draw method cannot be implemented
+//	here.
 public abstract class AbstractCharacter implements ICharacter
 {
 	protected int strength;
@@ -69,14 +72,10 @@ public abstract class AbstractCharacter implements ICharacter
 	}
 	
 	public void acceptCharacterVisitor(ICharacterVisitor visitor)
-	{
-		// Visit each component...
+	{		
 		armor.acceptCharacterVisitor(visitor);
 		footware.acceptCharacterVisitor(visitor);
 		shield.acceptCharacterVisitor(visitor);
-		sword.acceptCharacterVisitor(visitor);
-				
-		// Visit the receiver...
-//		visitor.visit(this);
+		sword.acceptCharacterVisitor(visitor);		
 	}
 }

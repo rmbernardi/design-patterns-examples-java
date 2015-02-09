@@ -1,6 +1,6 @@
 package designpatternsjava.behavioral.visitor;
 
-public class Footware implements IVisitable 
+public class Footware extends ArsenalItem implements IVisitable 
 {
 	public void acceptCharacterVisitor(ICharacterVisitor visitor)
 	{
