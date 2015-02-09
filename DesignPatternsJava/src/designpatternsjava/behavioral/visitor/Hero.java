@@ -7,10 +7,5 @@ public class Hero extends AbstractCharacter
 	public String toString()
 	{
 		return "Hero";
-	}
-	
-	public void draw()
-	{
-		// ... omitted ...
 	}	
 }

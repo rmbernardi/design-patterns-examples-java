@@ -13,10 +13,4 @@ package designpatternsjava.behavioral.visitor;
 //	however, ICharacter cannot implement IVisitable
 public interface ICharacter extends IVisitable
 {
-	public int getStrength();
-	public int getHealth();
-	
-	public String getName();
-	
-	public void draw();
 }
