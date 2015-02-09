@@ -1,7 +1,7 @@
 package designpatternsjava.behavioral.visitor;
 
 /**
- * These methods access variable internal to Characters.
+ * These methods access variables internal to Characters.
  * Using the Visitor pattern, changes will be localized to this class
  * and no changes will be needed inside of the Character hierarchy.
  */
