@@ -23,7 +23,7 @@ public class ArsenalItem
 	//	and decrementLevel. Visitors need direct
 	//	access to the fields.  This avoids changing the
 	//	inheritance hierarchy here.  
-	//	This centralized changes to the Visitor classes only.
+	//	This centralizes future changes to the Visitor classes only.
 	
 	// Do NOT put this here!
 //	public void incrementLevel()
